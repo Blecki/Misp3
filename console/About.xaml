@@ -1,0 +1,12 @@
+﻿<Window x:Class="SharpConsole.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Prompt" Height="171.536" Width="300" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <Label x:Name="PromptTitle" Margin="10,0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="104" FontSize="22" Width="272">
+            <TextBlock TextAlignment="Center" Width="262">Sharp 1.0<LineBreak/>Anthony Casteel<LineBreak/>2015</TextBlock>
+        </Label>
+        <Button x:Name="OkayButton" Content="Okay!" Margin="10,109,10,0" VerticalAlignment="Top" Click="OkayButton_Click" Height="28"/>
+
+    </Grid>
+</Window>
